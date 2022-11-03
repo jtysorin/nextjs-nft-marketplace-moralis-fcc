@@ -8,6 +8,7 @@
 <br/>
 
 This is a repo showing how to make a frontend NFT Marketplace from scratch!
+
 As Moralis posted, the Moralis Server could not be free after 12.01.2022, so probably this documentation will not fit completely anymore.
 
 - [Full-Stack Setup](#full-stack-setup)
@@ -113,11 +114,6 @@ In a separate terminal (you'll have a few up throughout these steps)
 Run `yarn moralis:cloud` in one terminal, and run `yarn moralis:logs` in another. If you don't have `moralis-admin-cli` installed already, install it globally with `yarn global add moralis-admin-cli`.
 
 > Note: You can stop these after running them once if your server is at max CPU capactity. 
-
-If you hit the little down arrow in your server, then hit `Cloud Functions` you should see text in there. 
-
-<img src="./img/down-arrow.png" width="500" alt="Cloud Functions Up">
-<img src="./img/functions.png" width="250" alt="Cloud Functions Up">
 
 Make sure you've run `yarn moralis:sync` from the previous step to connect your local Hardhat devchain with your Moralis instance. You'll need these 3 moralis commands running at the same time. 
 
