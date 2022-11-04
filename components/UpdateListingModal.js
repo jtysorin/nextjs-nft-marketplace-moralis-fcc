@@ -64,7 +64,7 @@ export default function UpdateListingModal({
                     padding: "20px 0 20px 0",
                 }}
             >
-                <Image loader={() => imageURI} src={imageURI} height="200" width="200"></Image>
+                <src src={imageURI} height="200" width="200" />
                 <br></br>
                 <Input
                     label="Update listing price in L1 Currency (ETH)"
