@@ -1,9 +1,8 @@
-import { Modal, Input, Card, useNotification } from "web3uikit";
+import { ethers } from "ethers";
 import { useState } from "react";
 import { useWeb3Contract } from "react-moralis";
+import { Input, Modal, useNotification } from "web3uikit";
 import nftMarketPlaceAbi from "../constants/NFTMarketPlace.json";
-import { ethers } from "ethers";
-import Image from "next/image";
 
 export default function UpdateListingModal({
     nftAddress,
